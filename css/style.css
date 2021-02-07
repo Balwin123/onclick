@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+    background: #0C4E42;
+}
+.wrapper{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     max-width: 350px;
+     width: 100%;
+     background: #F8981D;
+     padding: 25px;
+     border-radius: 5px;
+     box-shadow: 4px 4px 2px rgb(92, 90, 90);
+}
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(8, 8, 8);
+}
+.wrapper .input_field{
+    margin-bottom: 10px;
+}
+.wrapper .input_dield input[type="text"],.wrapper textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+}
+.wrapper textarea{
+   height: 80px;
+    resize: none;
+}
+.wrapper .btn input[type="submit"]{
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #1E282A;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #C10037;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
